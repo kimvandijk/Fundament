@@ -73,13 +73,13 @@ header.havenhead .intro-text .intro-heading {
 }
 /* on mobile */
 .btn-primary {
-    color: #fff;
-    font-family: 'Volkhov', serif;
-    font-size: 21px;
-    background-color: #ffa707;
-    border-color: #ffa707;
-    border-radius: 0.5rem;
-    padding: 10px 80px 10px 80px;
+  color: #fff;
+  font-family: 'Volkhov', serif;
+  font-size: 21px;
+  background-color: #ffa707;
+  border-color: #ffa707;
+  border-radius: 0.5rem;
+  padding: 10px 80px 10px 80px;
 }
 
 /* On large screen */
@@ -90,13 +90,13 @@ header.havenhead .intro-text .intro-heading {
 }
 /* on mobile */
 .btn-secondary {
-    color: #fff;
-    font-family: 'Volkhov', serif;
-    font-size: 21px;
-    background-color: #ffa70700;
-    border-color: white;
-    border-radius: 0.5rem;
-    padding: 10px 60px 10px 60px;
+  color: #fff;
+  font-family: 'Volkhov', serif;
+  font-size: 21px;
+  background-color: #ffa70700;
+  border-color: white;
+  border-radius: 0.5rem;
+  padding: 10px 60px 10px 60px;
 }
 
 .col-md-4 {
@@ -409,6 +409,11 @@ footer .row {
  margin-top: 20px;
 }
 
+/* on mobile */
+footer img {   
+  width: 25px;
+  margin-left: 10px;
+}
 /* on large screen */
 @media (min-width: 500px){
   footer img {
@@ -420,10 +425,6 @@ footer .row {
   }
 }
 /* on mobile */
-footer img {   
-  width: 25px;
-  margin-left: 10px;
-}
 footer .col-xs-6 {
   padding: 25px 0px 0px 20px;
 }
